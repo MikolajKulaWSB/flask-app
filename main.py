@@ -17,6 +17,11 @@ def ret():
     print(x)
     return jsonify({'x': x})
 
+@app.route('/1')
+def index1():
+    return 'Hello universe!'
+
+
 @app.route('/endpoint/aga')
 def hello():
     return "Uszanowanko, WOW!"
