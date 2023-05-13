@@ -6,6 +6,10 @@ app = Flask('app')
 def index():
     return 'Hello World!'
 
+@app.route('/23')
+def index23():
+    return 'Hello WSB'
+
 @app.route('/ret', methods=['POST'])
 def ret():
     json = request.json
