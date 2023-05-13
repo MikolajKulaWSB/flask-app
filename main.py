@@ -7,6 +7,11 @@ def index():
     return 'Hello World!'
 
 
+@app.route('/2')
+def index2():
+    return 'Hi there, Jakub here!'
+
+
 @app.route('/1111')
 def index1111():
     return 'Go home!'
