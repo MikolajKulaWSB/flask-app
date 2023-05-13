@@ -23,7 +23,7 @@ def hello2():
 
 @app.route("/endpoint/ola")
 def hello3():
-    return "Gdzie jest drwal?"
+    return "Gdzie jest drwal??"
 
 
 if __name__ == '__main__':
